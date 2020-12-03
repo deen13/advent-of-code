@@ -1,4 +1,4 @@
-# :star: Advent of Code Solutions
+# Advent of Code Solutions
 
 It's the most wonderful time of the year! :christmas_tree:
 
