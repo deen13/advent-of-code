@@ -1,4 +1,5 @@
-val trees = object {}.javaClass.getResource("/day03.input")
+// Part One
+val result = object {}.javaClass.getResource("/day03.input")
     .readText()
     .lines()
     .asSequence()
@@ -6,4 +7,4 @@ val trees = object {}.javaClass.getResource("/day03.input")
     .mapIndexed { i, l -> l[((i) * 3) % 31] }
     .count { it == '#' }
 
-println(trees)
+println(result)
