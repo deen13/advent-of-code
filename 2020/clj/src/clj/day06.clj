@@ -1,5 +1,4 @@
-(ns clj.day06
-  (:require [clojure.string :as str]))
+(ns clj.day06)
 
 (defn not-blank [s] (not (= '("") s)))
 (defn chunked [s] (filter not-blank (partition-by clojure.string/blank? s)))
