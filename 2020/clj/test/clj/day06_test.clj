@@ -17,4 +17,4 @@
 (deftest part2
   (testing "count everyone"
     (is (= 6 (count-everyone entries-small)))
-    (is (= 6 (count-everyone entries)))))
+    (is (= 3122 (count-everyone entries)))))
