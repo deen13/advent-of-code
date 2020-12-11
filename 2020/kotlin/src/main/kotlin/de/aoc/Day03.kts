@@ -4,7 +4,7 @@ val result = object {}.javaClass.getResource("/day03.input")
     .lines()
     .asSequence()
     .filterNot { it.isEmpty() }
-    .mapIndexed { i, l -> l[((i) * 3) % 31] }
+    .mapIndexed { i, l -> l[((i) * 3) % l.length] }
     .count { it == '#' }
 
 println(result)
