@@ -13,7 +13,6 @@
   (testing "count anyone"
     (is (= 6683 (count-anyone entries)))))
 
-
 (deftest part2
   (testing "count everyone"
     (is (= 6 (count-everyone entries-small)))

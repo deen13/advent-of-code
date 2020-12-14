@@ -55,4 +55,3 @@ fun convert(element: RawElement, root: Boolean = false): List<Tree.Node> {
 
 println(tree.filter { it.contains("shiny gold") }.map { it.name }.size) // Part One: 126
 println(tree.first { it.name == "shiny gold" }.totalCount) // Part Two: 220149
-
