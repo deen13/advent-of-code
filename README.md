@@ -13,3 +13,4 @@ It's the most wonderful time of the year! :christmas_tree:
 | Day 6 | :star: :star: |                                                                                                          | [x](https://github.com/deen13/advent-of-code/blob/master/2020/clj/src/clj/day06.clj) |
 | Day 7 | :star: :star: | [x](https://github.com/deen13/advent-of-code/blob/master/2020/kotlin/src/main/kotlin/de/aoc/Day07.kts)   |                                                                                      |
 | Day 8 | :star:        |                                                                                                          | [x](https://github.com/deen13/advent-of-code/blob/master/2020/clj/src/clj/day08.clj) |
+| Day 9 | :star:        |                                                                                                          | [x](https://github.com/deen13/advent-of-code/blob/master/2020/clj/src/clj/day09.clj) |
