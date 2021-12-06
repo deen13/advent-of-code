@@ -16,6 +16,7 @@ class DayTwoTests {
 
         expectThat(horizontal).isEqualTo(6)
     }
+
     @Test
     fun `calculate depth`() {
         val input = listOf(
@@ -37,6 +38,31 @@ class DayTwoTests {
         val input = File("src/test/resources/Day2Part1.txt").readLines()
 
         val product = DayTwo.calculateProduct(input)
+
+        expectThat(product).isEqualTo(1840243)
+    }
+
+    @Test
+    fun `calculate aimed`() {
+        val input = listOf(
+            "forward 5",
+            "down 5",
+            "forward 8",
+            "up 3",
+            "down 8",
+            "forward 2"
+        )
+
+        val horizontal = DayTwo.calculateAimed(input)
+
+        expectThat(horizontal).isEqualTo(900)
+    }
+
+    @Test
+    fun `part two`() {
+        val input = File("src/test/resources/Day2Part2.txt").readLines()
+
+        val product = DayTwo.calculateAimed(input)
 
         expectThat(product).isEqualTo(1840243)
     }
