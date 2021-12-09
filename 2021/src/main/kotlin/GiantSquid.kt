@@ -27,6 +27,6 @@ class GiantSquid {
             return (board + columns).any { row -> row.all { it in history } }
         }
 
-        fun findUnmarked(history: List<Int>) = board.flatMap { it.asIterable() }.filter { !(it in history) }
+        fun findUnmarked(history: List<Int>) = board.flatMap { it.asIterable() }.filter { it !in history }
     }
 }
