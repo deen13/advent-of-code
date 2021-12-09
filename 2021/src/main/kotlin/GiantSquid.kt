@@ -24,7 +24,7 @@ class GiantSquid {
         private val columns = transposeMatrix(board)
 
         fun hasWon(history: List<Int>): Boolean {
-            return (board + columns).any { row -> row.all { it in history } }
+            return (board + columns).any { axis -> axis.all { it in history } }
         }
 
         fun findUnmarked(history: List<Int>) = board.flatMap { it.asIterable() }.filter { it !in history }
