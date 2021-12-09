@@ -3,7 +3,7 @@ import kotlin.test.Test
 import strikt.api.expectThat
 import strikt.assertions.isEqualTo
 
-class DayTwoTests {
+class DiveTests {
 
     @Test
     fun `calculate horizontal`() {
@@ -12,7 +12,7 @@ class DayTwoTests {
             "forward 5"
         )
 
-        val horizontal = DayTwo.calculateHorizontal(input)
+        val horizontal = Dive.calculateHorizontal(input)
 
         expectThat(horizontal).isEqualTo(6)
     }
@@ -28,7 +28,7 @@ class DayTwoTests {
             "forward 2"
         )
 
-        val horizontal = DayTwo.calculateDepth(input)
+        val horizontal = Dive.calculateDepth(input)
 
         expectThat(horizontal).isEqualTo(10)
     }
@@ -37,7 +37,7 @@ class DayTwoTests {
     fun `part one`() {
         val input = File("src/test/resources/Day2Part1.txt").readLines()
 
-        val product = DayTwo.calculateProduct(input)
+        val product = Dive.calculateProduct(input)
 
         expectThat(product).isEqualTo(1840243)
     }
@@ -53,7 +53,7 @@ class DayTwoTests {
             "forward 2"
         )
 
-        val horizontal = DayTwo.calculateAimed(input)
+        val horizontal = Dive.calculateAimed(input)
 
         expectThat(horizontal).isEqualTo(900)
     }
@@ -62,7 +62,7 @@ class DayTwoTests {
     fun `part two`() {
         val input = File("src/test/resources/Day2Part2.txt").readLines()
 
-        val product = DayTwo.calculateAimed(input)
+        val product = Dive.calculateAimed(input)
 
         expectThat(product).isEqualTo(1840243)
     }

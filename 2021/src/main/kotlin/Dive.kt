@@ -1,4 +1,4 @@
-class DayTwo {
+class Dive {
 
     companion object {
         fun calculateHorizontal(input: List<String>): Int {

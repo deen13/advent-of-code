@@ -3,13 +3,13 @@ import kotlin.test.Test
 import strikt.api.expectThat
 import strikt.assertions.isEqualTo
 
-class DayOneTests {
+class SonarSweepTests {
 
     @Test
     fun `one increased`() {
         val input = listOf(1, 2)
 
-        val increases = DayOne.countIncreases(input)
+        val increases = SonarSweep.countIncreases(input)
 
         expectThat(increases).isEqualTo(1)
     }
@@ -18,7 +18,7 @@ class DayOneTests {
     fun `two increases`() {
         val input = listOf(1, 2, 3)
 
-        val increases = DayOne.countIncreases(input)
+        val increases = SonarSweep.countIncreases(input)
 
         expectThat(increases).isEqualTo(2)
     }
@@ -27,7 +27,7 @@ class DayOneTests {
     fun `two increases with stagnation`() {
         val input = listOf(1, 2, 2, 3)
 
-        val increases = DayOne.countIncreases(input)
+        val increases = SonarSweep.countIncreases(input)
 
         expectThat(increases).isEqualTo(2)
     }
@@ -38,7 +38,7 @@ class DayOneTests {
             .readLines()
             .map { it.toInt() }
 
-        val increases = DayOne.countIncreases(input)
+        val increases = SonarSweep.countIncreases(input)
 
         expectThat(increases).isEqualTo(1715)
     }
@@ -49,7 +49,7 @@ class DayOneTests {
             .readLines()
             .map { it.toInt() }
 
-        val increases = DayOne.countWindowedIncreases(input)
+        val increases = SonarSweep.countWindowedIncreases(input)
 
         expectThat(increases).isEqualTo(1715)
     }

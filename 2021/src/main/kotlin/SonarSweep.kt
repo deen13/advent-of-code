@@ -1,4 +1,4 @@
-class DayOne {
+class SonarSweep {
 
     companion object {
         fun countIncreases(input: List<Int>) = input.zipWithNext().count { (first, second) -> second > first }
