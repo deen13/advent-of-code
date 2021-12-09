@@ -18,5 +18,6 @@ It's the most wonderful time of the year! :christmas_tree:
 ## 2021
 |       |     Stars     | Kotlin                                                                                                   | 
 |-------|---------------|----------------------------------------------------------------------------------------------------------|
-| Day 1 | :star: :star: | [x](https://github.com/deen13/advent-of-code/blob/master/2021/src/main/kotlin/DayOne.kt)   | 
-| Day 2 | :star: :star: | [x](https://github.com/deen13/advent-of-code/blob/master/2021/src/main/kotlin/DayTwo.kt)   |  
+| Day 1 | :star: :star: | [x](https://github.com/deen13/advent-of-code/blob/master/2021/src/main/kotlin/SonarSweep.kt)   | 
+| Day 2 | :star: :star: | [x](https://github.com/deen13/advent-of-code/blob/master/2021/src/main/kotlin/Dive.kt)   |  
+| Day 3 | :star: :star: | [x](https://github.com/deen13/advent-of-code/blob/master/2021/src/main/kotlin/BinaryDiagnostic.kt)   |  
