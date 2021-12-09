@@ -21,3 +21,4 @@ It's the most wonderful time of the year! :christmas_tree:
 | Day 1 | :star: :star: | [x](https://github.com/deen13/advent-of-code/blob/master/2021/src/main/kotlin/SonarSweep.kt)   | 
 | Day 2 | :star: :star: | [x](https://github.com/deen13/advent-of-code/blob/master/2021/src/main/kotlin/Dive.kt)   |  
 | Day 3 | :star: :star: | [x](https://github.com/deen13/advent-of-code/blob/master/2021/src/main/kotlin/BinaryDiagnostic.kt)   |  
+| Day 4 | :star:        | [x](https://github.com/deen13/advent-of-code/blob/master/2021/src/main/kotlin/GiantSquid.kt)   |  
