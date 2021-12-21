@@ -106,18 +106,10 @@ class GiantSquidTests {
 
     @Test
     fun `part one`() {
-        val input = File("src/test/resources/Day4Part1.txt")
+        val input = File("src/test/resources/Day4Part1.txt").readLines()
 
-        val history = input.readLines().first().split(",").map { it.toInt() }
-
-        val boards = input.readLines()
-            .asSequence()
-            .filterNot { it.isEmpty() }
-            .drop(1)
-            .chunked(5)
-            .map { b -> b.map { r -> r.chunked(3) }.map { r -> r.map { c -> c.trim().toInt() }.toIntArray() } }
-            .map { GiantSquid.Board(it.toTypedArray()) }
-            .toList()
+        val history = GiantSquid.parseHistory(input)
+        val boards = GiantSquid.parseBoards(input)
 
         expectThat(GiantSquid.findScore(boards, history)).isEqualTo(50008)
     }
